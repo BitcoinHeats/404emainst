@@ -27,10 +27,10 @@ const LOCATION_PERKS = [
 
 const PropertyDetails = () => {
   useSeoMeta({
-    title: 'Property Details — 404 E Main Street, Niles, MI',
+    title: 'Apartment Details — 404 E Main Street, Niles, MI',
     description:
       'Full property details for 404 E Main Street: a historic 48-unit multifamily residence in downtown Niles, MI with 94% occupancy, ample parking, and a prime walkable location.',
-    ogTitle: 'Property Details — 404 E Main Street, Niles, MI',
+    ogTitle: 'Apartment Details — 404 E Main Street, Niles, MI',
     ogDescription:
       'A historic 48-unit multifamily residence in downtown Niles, MI with 94% occupancy, ample parking, and a prime walkable location.',
     ogImage: PROPERTY.heroImage,
@@ -51,7 +51,7 @@ const PropertyDetails = () => {
               Home
             </Link>
             <span className="mx-2">/</span>
-            <span className="text-primary-foreground">Property Details</span>
+            <span className="text-primary-foreground">Apartment Details</span>
           </nav>
           <div className="mt-5 max-w-3xl animate-fade-up">
             <span className="inline-flex items-center gap-2 rounded-full border border-accent/40 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-accent">

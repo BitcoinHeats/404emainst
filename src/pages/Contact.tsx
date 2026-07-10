@@ -222,7 +222,7 @@ const Contact = () => {
               </p>
               <Button asChild variant="outline" className="mt-6">
                 <Link to="/property">
-                  View Property Details
+                  View Apartment Details
                   <ArrowRight className="size-4" />
                 </Link>
               </Button>
