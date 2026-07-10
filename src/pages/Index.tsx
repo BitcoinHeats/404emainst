@@ -1,6 +1,6 @@
 import { useSeoMeta } from '@unhead/react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, MapPin, Phone } from 'lucide-react';
+import { ArrowRight, MapPin } from 'lucide-react';
 import { Layout } from '@/components/Layout';
 import { FeatureIcon } from '@/components/FeatureIcon';
 import { Button } from '@/components/ui/button';
@@ -54,12 +54,6 @@ const Index = () => {
                   Explore the Property
                   <ArrowRight className="size-4" />
                 </Link>
-              </Button>
-              <Button asChild size="lg" variant="outline" className="border-accent/50 bg-transparent text-primary-foreground hover:bg-accent hover:text-accent-foreground">
-                <a href={PROPERTY.smsHref}>
-                  <Phone className="size-4" />
-                  Text to Apply
-                </a>
               </Button>
             </div>
           </div>
@@ -184,18 +178,12 @@ const Index = () => {
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button asChild size="lg" variant="secondary">
-              <Link to="/contact">
-                Apply for an Apartment
-                <ArrowRight className="size-4" />
-              </Link>
-            </Button>
-              <Button asChild size="lg" variant="outline" className="border-accent/50 bg-transparent text-primary-foreground hover:bg-accent hover:text-accent-foreground">
-                <a href={PROPERTY.phoneHref}>
-                  <Phone className="size-4" />
-                  Call Now
-                </a>
+                <Link to="/contact">
+                  Apply for an Apartment
+                  <ArrowRight className="size-4" />
+                </Link>
               </Button>
-          </div>
+            </div>
         </div>
       </section>
     </Layout>

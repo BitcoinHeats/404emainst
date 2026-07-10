@@ -241,10 +241,10 @@ const Contact = () => {
             Text our private number and our onsite team will help you get started.
           </p>
           <Button asChild size="lg" variant="secondary" className="mt-8">
-            <a href={PROPERTY.smsHref}>
-              <MessageSquare className="size-4" />
-              Text Us
-            </a>
+            <Link to="/contact">
+              Start Your Application
+              <ArrowRight className="size-4" />
+            </Link>
           </Button>
         </div>
       </section>

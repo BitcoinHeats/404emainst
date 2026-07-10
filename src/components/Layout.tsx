@@ -153,14 +153,6 @@ export function Layout({ children }: { children: ReactNode }) {
             </h3>
             <ul className="mt-4 space-y-2 text-sm text-primary-foreground/70">
               <li>{PROPERTY.fullAddress}</li>
-              <li>
-                <a
-                  href={PROPERTY.phoneHref}
-                  className="transition-colors hover:text-primary-foreground"
-                >
-                  Call Us
-                </a>
-              </li>
               <li>Onsite Management</li>
             </ul>
           </div>

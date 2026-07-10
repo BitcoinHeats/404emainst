@@ -1,6 +1,6 @@
 import { useSeoMeta } from '@unhead/react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, MapPin, Phone, Check } from 'lucide-react';
+import { ArrowRight, MapPin, Check } from 'lucide-react';
 import { Layout } from '@/components/Layout';
 import { FeatureIcon } from '@/components/FeatureIcon';
 import { Button } from '@/components/ui/button';
@@ -255,12 +255,6 @@ const PropertyDetails = () => {
                 How to Apply
                 <ArrowRight className="size-4" />
               </Link>
-            </Button>
-            <Button asChild size="lg" variant="outline" className="border-accent/50 bg-transparent text-primary-foreground hover:bg-accent hover:text-accent-foreground">
-              <a href={PROPERTY.smsHref}>
-                <Phone className="size-4" />
-                Text Us
-              </a>
             </Button>
           </div>
         </div>
