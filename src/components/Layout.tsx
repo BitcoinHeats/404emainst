@@ -8,6 +8,7 @@ import { PROPERTY } from '@/lib/propertyData';
 const NAV_LINKS = [
   { to: '/', label: 'Home', end: true },
   { to: '/property', label: 'Apartment Details' },
+  { to: '/historical-landmark', label: 'Historical Landmark' },
   { to: '/contact', label: 'Apply' },
 ];
 

@@ -5,6 +5,7 @@ import Index from "./pages/Index";
 import { NIP19Page } from "./pages/NIP19Page";
 import NotFound from "./pages/NotFound";
 import PropertyDetails from "./pages/PropertyDetails";
+import HistoricalLandmark from "./pages/HistoricalLandmark";
 import Contact from "./pages/Contact";
 
 export function AppRouter() {
@@ -14,6 +15,7 @@ export function AppRouter() {
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/property" element={<PropertyDetails />} />
+        <Route path="/historical-landmark" element={<HistoricalLandmark />} />
         <Route path="/contact" element={<Contact />} />
         {/* NIP-19 route for npub1, note1, naddr1, nevent1, nprofile1 */}
         <Route path="/:nip19" element={<NIP19Page />} />
