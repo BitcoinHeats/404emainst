@@ -170,7 +170,7 @@ const Index = () => {
         </div>
         <div className="container flex flex-col items-center py-20 text-center text-primary-foreground sm:py-28">
           <h2 className="max-w-2xl font-serif text-3xl font-bold leading-tight text-balance sm:text-4xl">
-            Own a Piece of Niles' Vibrant Future
+            A Piece of Niles' Vibrant Future
           </h2>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-primary-foreground/80 sm:text-lg">
             404 E Main Street isn't just a property—it's a lifestyle opportunity. With onsite
