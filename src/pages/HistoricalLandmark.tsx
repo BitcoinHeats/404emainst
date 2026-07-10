@@ -20,7 +20,7 @@ const MILESTONES = [
   { year: '1867', text: 'The Pike Hotel was built on the corner of Main and Fourth Streets—the present Four Flags site.' },
   { year: '1922', text: 'The Pike Hotel closed. Niles businessmen formed the Niles Hotel Corporation.' },
   { year: '1926', text: 'The Four Flags Hotel opened on July 6—billed as the most modern hotel in the area.' },
-  { year: '1929', text: 'Residents gathered on the hotel roof to watch the Graf Zeppelin fly over on its world tour.' },
+  { year: '1929', text: 'Residents gathered on the hotel roof to watch the Graf Zeppelin fly over on its historical trip around the world.' },
   { year: 'Today', text: 'Reborn as 404 East Main, home to 47 apartments continuing to serve downtown Niles.' },
 ];
 
