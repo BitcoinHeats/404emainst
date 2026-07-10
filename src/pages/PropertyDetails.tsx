@@ -259,7 +259,7 @@ const PropertyDetails = () => {
             <Button asChild size="lg" variant="outline" className="border-accent/50 bg-transparent text-primary-foreground hover:bg-accent hover:text-accent-foreground">
               <a href={PROPERTY.smsHref}>
                 <Phone className="size-4" />
-                Text {PROPERTY.phone}
+                Text Us
               </a>
             </Button>
           </div>

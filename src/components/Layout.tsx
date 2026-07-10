@@ -100,7 +100,7 @@ export function Layout({ children }: { children: ReactNode }) {
                 );
               })}
               <Button asChild className="mt-2" onClick={() => setOpen(false)}>
-                <a href={PROPERTY.smsHref}>Text {PROPERTY.phone} to Apply</a>
+                <a href={PROPERTY.smsHref}>Text to Apply</a>
               </Button>
             </div>
           </div>
@@ -158,7 +158,7 @@ export function Layout({ children }: { children: ReactNode }) {
                   href={PROPERTY.phoneHref}
                   className="transition-colors hover:text-primary-foreground"
                 >
-                  {PROPERTY.phone}
+                  Call Us
                 </a>
               </li>
               <li>Onsite Management</li>

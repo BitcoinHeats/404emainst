@@ -11,7 +11,7 @@ const Index = () => {
   useSeoMeta({
     title: '404 E Main Street — Historic Downtown Niles Living',
     description:
-      'The historic former Four Flags Hotel in downtown Niles, MI, reimagined as a 48-unit multifamily residence blending historic charm with modern comfort. Text 269-929-2875 to apply.',
+      'The historic former Four Flags Hotel in downtown Niles, MI, reimagined as a 48-unit multifamily residence blending historic charm with modern comfort. Text our private number to apply.',
     ogTitle: '404 E Main Street — Historic Downtown Niles Living',
     ogDescription:
       'The historic former Four Flags Hotel, reimagined as a 48-unit multifamily residence in the heart of downtown Niles, MI.',
@@ -189,12 +189,12 @@ const Index = () => {
                 <ArrowRight className="size-4" />
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-accent/50 bg-transparent text-primary-foreground hover:bg-accent hover:text-accent-foreground">
-              <a href={PROPERTY.phoneHref}>
-                <Phone className="size-4" />
-                Call {PROPERTY.phone}
-              </a>
-            </Button>
+              <Button asChild size="lg" variant="outline" className="border-accent/50 bg-transparent text-primary-foreground hover:bg-accent hover:text-accent-foreground">
+                <a href={PROPERTY.phoneHref}>
+                  <Phone className="size-4" />
+                  Call Now
+                </a>
+              </Button>
           </div>
         </div>
       </section>

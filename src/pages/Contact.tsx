@@ -18,8 +18,8 @@ const STEPS = [
   {
     icon: MessageSquare,
     title: 'Text Our Private Number',
-    body: 'Text 269-929-2875 to apply for an apartment. Let us know you are interested in 404 E. Main St. in Niles, MI.',
-    detail: '269-929-2875',
+    body: 'Text our private number to apply for an apartment. Let us know you are interested in 404 E. Main St. in Niles, MI.',
+    detail: 'Text Now',
   },
   {
     icon: IdCard,
@@ -42,10 +42,10 @@ const Contact = () => {
   useSeoMeta({
     title: 'Apply — 404 E Main Street, Niles, MI',
     description:
-      'Apply for an apartment at 404 E Main Street in Niles, MI. Text 269-929-2875 with a photo ID and 2 paystubs to get started, then we will schedule your tour.',
+      'Apply for an apartment at 404 E Main Street in Niles, MI. Text our private number with a photo ID and 2 paystubs to get started, then we will schedule your tour.',
     ogTitle: 'Apply — 404 E Main Street, Niles, MI',
     ogDescription:
-      'Text 269-929-2875 with a photo ID and 2 paystubs to apply for an apartment at 404 E Main Street in Niles, MI.',
+      'Text our private number with a photo ID and 2 paystubs to apply for an apartment at 404 E Main Street in Niles, MI.',
     ogImage: PROPERTY.heroImage,
     ogType: 'website',
   });
@@ -97,7 +97,7 @@ const Contact = () => {
                 href={PROPERTY.smsHref}
                 className="font-serif text-3xl font-bold text-primary transition-colors hover:text-accent"
               >
-                {PROPERTY.phone}
+                Text Our Private Number
               </a>
               <p className="mt-1 text-sm text-muted-foreground">
                 {PROPERTY.fullAddress}
@@ -243,7 +243,7 @@ const Contact = () => {
           <Button asChild size="lg" variant="secondary" className="mt-8">
             <a href={PROPERTY.smsHref}>
               <MessageSquare className="size-4" />
-              Text {PROPERTY.phone}
+              Text Us
             </a>
           </Button>
         </div>
