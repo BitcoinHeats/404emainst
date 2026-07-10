@@ -172,15 +172,6 @@ const Contact = () => {
           })}
         </ol>
 
-        {/* Info note */}
-        <div className="mx-auto mt-12 max-w-3xl rounded-2xl border border-accent/30 bg-accent/5 p-6 sm:p-8">
-          <p className="text-sm leading-relaxed text-foreground/90">
-            <span className="font-semibold text-primary">A note from our team: </span>
-            "I see you filled out the info on Zillow for 404 E. Main St. in Niles, MI. To complete
-            this application I will need you to please text a photo ID and 2 paystubs. Once we have
-            received that info, we will schedule a tour. Thank you!"
-          </p>
-        </div>
       </section>
 
       {/* What to bring / summary */}
