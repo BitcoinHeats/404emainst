@@ -58,8 +58,9 @@ const PropertyDetails = () => {
               <MapPin className="size-3.5" />
               {PROPERTY.tagline}
             </span>
-            <h1 className="mt-5 font-serif text-4xl font-bold leading-tight text-balance sm:text-5xl">
-              404 East Main Street
+            <h1 className="mt-5 font-serif font-bold leading-tight text-balance text-primary-foreground">
+              <span className="text-5xl sm:text-6xl">404</span>{' '}
+              <span className="text-3xl sm:text-4xl">East Main Street</span>
             </h1>
             <p className="mt-3 font-serif text-xl text-accent sm:text-2xl">
               The Former {PROPERTY.historicName}
@@ -240,8 +241,10 @@ const PropertyDetails = () => {
       {/* CTA */}
       <section className="bg-primary py-16 text-center text-primary-foreground sm:py-20">
         <div className="container">
-          <h2 className="font-serif text-3xl font-bold leading-tight text-balance sm:text-4xl">
-            Ready to Make 404 E Main Your Home?
+          <h2 className="font-serif font-bold leading-tight text-balance text-primary-foreground">
+            <span className="text-3xl sm:text-4xl">Ready to Make</span>{' '}
+            <span className="text-4xl sm:text-5xl text-accent">404</span>{' '}
+            <span className="text-3xl sm:text-4xl">E Main Your Home?</span>
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base text-primary-foreground/80">
             Text our private number to start your application today.

@@ -38,8 +38,9 @@ const Index = () => {
               <MapPin className="size-3.5" />
               {PROPERTY.tagline}
             </span>
-            <h1 className="mt-5 font-serif text-4xl font-bold leading-[1.05] text-balance sm:text-5xl lg:text-6xl">
-              404 East Main Street
+            <h1 className="mt-5 font-serif font-bold leading-[1.05] text-balance text-primary-foreground">
+              <span className="text-5xl sm:text-6xl lg:text-7xl">404</span>{' '}
+              <span className="text-3xl sm:text-4xl lg:text-5xl">East Main Street</span>
             </h1>
             <p className="mt-2 font-serif text-xl text-accent sm:text-2xl">
               The Former Four Flags Hotel
@@ -105,8 +106,10 @@ const Index = () => {
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent">
               What Makes This Property Exceptional
             </p>
-            <h2 className="mt-4 font-serif text-3xl font-bold leading-tight text-balance sm:text-4xl">
-              Six Reasons to Love 404 E Main
+            <h2 className="mt-4 font-serif font-bold leading-tight text-balance">
+              <span className="text-3xl sm:text-4xl">Six Reasons to Love</span>{' '}
+              <span className="text-4xl sm:text-5xl text-accent">404</span>{' '}
+              <span className="text-3xl sm:text-4xl">E Main</span>
             </h2>
           </div>
 
@@ -139,9 +142,11 @@ const Index = () => {
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent">
             Perfect For
           </p>
-          <h2 className="mt-4 font-serif text-3xl font-bold leading-tight text-balance sm:text-4xl">
-            Who Calls 404 E Main Home
-          </h2>
+            <h2 className="mt-4 font-serif font-bold leading-tight text-balance">
+              <span className="text-3xl sm:text-4xl">Who Calls</span>{' '}
+              <span className="text-4xl sm:text-5xl text-accent">404</span>{' '}
+              <span className="text-3xl sm:text-4xl">E Main Home</span>
+            </h2>
         </div>
 
         <div className="mt-14 grid gap-6 md:grid-cols-3">
