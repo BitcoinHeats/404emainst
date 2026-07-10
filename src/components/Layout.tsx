@@ -28,12 +28,12 @@ export function Layout({ children }: { children: ReactNode }) {
             className="flex items-center gap-3 outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-md"
             onClick={() => setOpen(false)}
           >
-            <img src="/favicon.svg" alt="" className="size-9 shrink-0" />
+            <img src="/favicon.svg" alt="" className="size-11 shrink-0" />
             <span className="flex flex-col leading-none">
-              <span className="font-serif text-lg font-semibold tracking-tight text-primary">
+              <span className="font-serif text-2xl font-bold tracking-tight text-primary">
                 404 E Main
               </span>
-              <span className="text-[11px] font-medium uppercase tracking-[0.18em] text-accent">
+              <span className="mt-0.5 text-xs font-medium uppercase tracking-[0.18em] text-accent">
                 Niles, MI
               </span>
             </span>
@@ -114,9 +114,9 @@ export function Layout({ children }: { children: ReactNode }) {
         <div className="container grid gap-8 py-12 sm:grid-cols-2 lg:grid-cols-3">
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-3">
-              <img src="/favicon.svg" alt="" className="size-10" />
+              <img src="/favicon.svg" alt="" className="size-12" />
               <div className="leading-tight">
-                <p className="font-serif text-lg font-semibold">404 E Main Street</p>
+                <p className="font-serif text-2xl font-bold">404 E Main Street</p>
                 <p className="text-sm text-primary-foreground/70">Former {PROPERTY.historicName}</p>
               </div>
             </div>
