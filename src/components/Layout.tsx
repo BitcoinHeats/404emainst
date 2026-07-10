@@ -30,10 +30,11 @@ export function Layout({ children }: { children: ReactNode }) {
           >
             <img src="/favicon.svg" alt="" className="size-11 shrink-0" />
             <span className="flex flex-col leading-none">
-              <span className="font-serif text-2xl font-bold tracking-tight text-primary">
-                404 E Main
+              <span className="font-serif font-bold tracking-tight text-primary">
+                <span className="text-3xl">404</span>{' '}
+                <span className="text-base font-medium align-middle">E Main</span>
               </span>
-              <span className="mt-0.5 text-xs font-medium uppercase tracking-[0.18em] text-accent">
+              <span className="mt-1 text-xs font-medium uppercase tracking-[0.18em] text-accent">
                 Niles, MI
               </span>
             </span>
@@ -116,7 +117,10 @@ export function Layout({ children }: { children: ReactNode }) {
             <div className="flex items-center gap-3">
               <img src="/favicon.svg" alt="" className="size-12" />
               <div className="leading-tight">
-                <p className="font-serif text-2xl font-bold">404 E Main Street</p>
+                <p className="font-serif font-bold">
+                  <span className="text-3xl">404</span>{' '}
+                  <span className="text-lg font-medium">E Main Street</span>
+                </p>
                 <p className="text-sm text-primary-foreground/70">Former {PROPERTY.historicName}</p>
               </div>
             </div>
