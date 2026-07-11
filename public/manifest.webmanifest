@@ -1,0 +1,17 @@
+{
+  "name": "404 E Main Street",
+  "short_name": "404 E Main",
+  "description": "The historic former Four Flags Hotel in downtown Niles, MI, reimagined as a 48-unit multifamily residence.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e3a5f",
+  "theme_color": "#1e3a5f",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
