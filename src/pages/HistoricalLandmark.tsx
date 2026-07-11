@@ -32,7 +32,8 @@ const HistoricalLandmark = () => {
     ogTitle: 'Historical Landmark — 404 E Main Street, Niles, MI',
     ogDescription:
       'A century of history at the former Four Flags Hotel in downtown Niles, MI—famous guests, historic milestones, and its continuing role in the community.',
-    ogImage: PROPERTY.heroImage,
+    ogImage: `${PROPERTY.url}/404-main-st.jpeg`,
+    ogUrl: `${PROPERTY.url}/historical-landmark`,
     ogType: 'website',
   });
 

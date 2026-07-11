@@ -15,7 +15,8 @@ const Index = () => {
     ogTitle: '404 E Main Street — Historic Downtown Niles Living',
     ogDescription:
       'The historic former Four Flags Hotel, reimagined as a 48-unit multifamily residence in the heart of downtown Niles, MI.',
-    ogImage: PROPERTY.heroImage,
+    ogImage: `${PROPERTY.url}/404-main-st.jpeg`,
+    ogUrl: PROPERTY.url,
     ogType: 'website',
   });
 

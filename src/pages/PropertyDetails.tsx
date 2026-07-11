@@ -33,7 +33,8 @@ const PropertyDetails = () => {
     ogTitle: 'Apartment Details — 404 E Main Street, Niles, MI',
     ogDescription:
       'A historic 48-unit multifamily residence in downtown Niles, MI with 94% occupancy, ample parking, and a prime walkable location.',
-    ogImage: PROPERTY.heroImage,
+    ogImage: `${PROPERTY.url}/404-main-st.jpeg`,
+    ogUrl: `${PROPERTY.url}/property`,
     ogType: 'website',
   });
 

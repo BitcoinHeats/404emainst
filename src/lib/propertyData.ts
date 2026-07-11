@@ -9,6 +9,7 @@ export const PROPERTY = {
   unitCount: 48,
   occupancy: '94%',
   heroImage: '/404-main-st.jpeg',
+  url: 'https://404emainst.com',
   phone: '269-929-2875',
   phoneHref: 'tel:2699292875',
   smsHref: 'sms:2699292875',

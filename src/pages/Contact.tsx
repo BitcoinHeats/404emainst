@@ -46,7 +46,8 @@ const Contact = () => {
     ogTitle: 'Apply — 404 E Main Street, Niles, MI',
     ogDescription:
       'Text our private number with a photo ID and 2 paystubs to apply for an apartment at 404 E Main Street in Niles, MI.',
-    ogImage: PROPERTY.heroImage,
+    ogImage: `${PROPERTY.url}/404-main-st.jpeg`,
+    ogUrl: `${PROPERTY.url}/contact`,
     ogType: 'website',
   });
 
